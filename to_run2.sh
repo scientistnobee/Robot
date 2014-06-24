@@ -11,7 +11,6 @@ do
   sudo ./deepbelief $RESULT > try4.txt
   RESULT2=$(python find_max.py)
   echo "$RESULT2"
-sleep 60
 done
 wait
 #trap sudo rm *jpg EXIT
